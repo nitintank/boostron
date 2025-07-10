@@ -1,0 +1,28 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle -->
+  <circle cx="100" cy="100" r="95" fill="#3498db" stroke="#fff" stroke-width="2" />
+  
+  <!-- Inner white circle for badge content -->
+  <circle cx="100" cy="100" r="75" fill="#fff" />
+  
+  <!-- FDA text in center -->
+  <text x="100" y="110" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#3498db">FDA</text>
+  
+  <!-- Top text: FOOD AND DRUG -->
+  <path id="topArc" d="M40,60 A60,60 0 0,1 160,60" fill="none" />
+  <text font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">FOOD AND DRUG</textPath>
+  </text>
+  
+  <!-- Bottom text: ADMINISTRATION -->
+  <path id="bottomArc" d="M40,140 A60,60 0 0,0 160,140" fill="none" />
+  <text font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">ADMINISTRATION</textPath>
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="60" cy="60" r="5" fill="#fff" />
+  <circle cx="140" cy="60" r="5" fill="#fff" />
+  <circle cx="60" cy="140" r="5" fill="#fff" />
+  <circle cx="140" cy="140" r="5" fill="#fff" />
+</svg>
