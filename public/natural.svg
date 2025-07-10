@@ -1,0 +1,32 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle -->
+  <circle cx="100" cy="100" r="95" fill="#4CAF50" stroke="#fff" stroke-width="2" />
+  
+  <!-- Inner white circle for badge content -->
+  <circle cx="100" cy="100" r="75" fill="#fff" />
+  
+  <!-- Leaf icon in center -->
+  <path d="M100,70 C120,70 130,90 130,110 C110,110 100,90 100,70 Z" fill="#4CAF50" />
+  <path d="M100,70 C80,70 70,90 70,110 C90,110 100,90 100,70 Z" fill="#4CAF50" />
+  
+  <!-- 100% text in center -->
+  <text x="100" y="120" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#4CAF50">100%</text>
+  
+  <!-- Top text: CERTIFIED -->
+  <path id="topArc" d="M40,60 A60,60 0 0,1 160,60" fill="none" />
+  <text font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">CERTIFIED</textPath>
+  </text>
+  
+  <!-- Bottom text: NATURAL -->
+  <path id="bottomArc" d="M40,140 A60,60 0 0,0 160,140" fill="none" />
+  <text font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">NATURAL</textPath>
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="60" cy="60" r="5" fill="#fff" />
+  <circle cx="140" cy="60" r="5" fill="#fff" />
+  <circle cx="60" cy="140" r="5" fill="#fff" />
+  <circle cx="140" cy="140" r="5" fill="#fff" />
+</svg>
