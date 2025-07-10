@@ -16,7 +16,7 @@ const eslintConfig = [
       'react/no-unescaped-entities': 'off',
       '@next/next/no-page-custom-font': 'off',
     },
-  }
+  }git remote add origin https://github.com/username/repository.git
 ];
 
 export default eslintConfig;
