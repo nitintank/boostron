@@ -18,12 +18,14 @@ export default function Home() {
             <h2 style={{ margin: 0, fontWeight: 'bold', fontSize: '1.8rem' }}>Boostron®</h2>
           </div>
           <button className="mobile-menu-icon" onClick={() => setIsSidebarOpen(true)} aria-label="Open Menu">☰</button>
+          <div className="newHeadBox">
           <nav className="nav-links">
             <a href="#how-it-works">How It Works?</a>
             <a href="#ingredients">Ingredients</a>
             <a href="#benefits">Benefits</a>
           </nav>
           <a href="#order" className="order-button">Order Now</a>
+          </div>
         </div>
       </header>
       {/* Mobile Sidebar */}
@@ -664,7 +666,7 @@ export default function Home() {
           </div>
           <div className="banner-content">
             <h3>Don’t Wait Any Longer! Order Your Discounted Bottle Now!</h3>
-            <a href="#order" className="order-button">Only For $39.99/Bottle</a>
+            <a href="#order" className="order-button max-button-padding">Only For $39.99/Bottle</a>
             {/* <p className="regular-price">Regular price :<span>$99</span></p> */}
           </div>
         </div>
@@ -692,7 +694,7 @@ export default function Home() {
           <Image src="/boostron-big-offer-removebg-preview.png" alt="Boostron Bottles" width={500} height={350} />
           <p className="regular-price small">Regular Price: $99/per bottle</p>
           <strong className="discounted">Only for: $39.99/per bottle</strong>
-          <a href="#order" className="order-button">Order Your Boostron Now</a>
+          <a href="#order" className="order-button max-button-padding">Order Your Boostron Now</a>
         </div>
       </section>
 
