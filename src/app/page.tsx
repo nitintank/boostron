@@ -19,12 +19,12 @@ export default function Home() {
           </div>
           <button className="mobile-menu-icon" onClick={() => setIsSidebarOpen(true)} aria-label="Open Menu">☰</button>
           <div className="newHeadBox">
-          <nav className="nav-links">
-            <a href="#how-it-works">How It Works?</a>
-            <a href="#ingredients">Ingredients</a>
-            <a href="#benefits">Benefits</a>
-          </nav>
-          <a href="#order" className="order-button">Order Now</a>
+            <nav className="nav-links">
+              <a href="#how-it-works">How It Works?</a>
+              <a href="#ingredients">Ingredients</a>
+              <a href="#benefits">Benefits</a>
+            </nav>
+            <a href="#order" className="order-button">Order Now</a>
           </div>
         </div>
       </header>
@@ -316,8 +316,11 @@ export default function Home() {
 
       {/* Image Grid Section */}
       <section className="image-grid-section">
-        <h2>Limited Time Special Pricing - Act Now!
-          <br></br>Secure Your Reserved Boostron Stocks Last</h2>
+        <h2>Claim Your Discounted Boostron !
+          <br></br>Below For Huge Savings</h2>
+        <div className="off-white-background">
+          <div className="buying-background p-4 g-arrow"></div>
+        </div>
         {/* <div className="image-row">
           {firstRowImages.map((img, index) => (
             <a key={index} href={img.link} className="image-link">
