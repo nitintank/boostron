@@ -711,14 +711,14 @@ export default function Home() {
         </div>
 
         <div className="footer-bottom">
-          {/* <div className="social-icons">
-            <a href="#"><img src="https://img.icons8.com/ios-filled/24/000000/facebook--v1.png" /></a>
-            <a href="#"><img src="https://img.icons8.com/ios-filled/24/000000/twitter--v1.png" /></a>
-            <a href="#"><img src="https://img.icons8.com/ios-filled/24/000000/pinterest--v1.png" /></a>
-            <a href="#"><img src="https://img.icons8.com/ios-filled/24/000000/linkedin--v1.png" /></a>
-            <a href="#"><img src="https://img.icons8.com/ios-filled/24/000000/quora--v1.png" /></a>
-            <a href="#"><img src="https://img.icons8.com/ios-filled/24/000000/tumblr--v1.png" /></a>
-          </div> */}
+          <div className="social-icons">
+            <Link href="#"><i className="fab fa-facebook-f" aria-hidden="true"></i></Link>
+            <Link href="#"><i className="fab fa-twitter" aria-hidden="true"></i></Link>
+            <Link href="#"><i className="fab fa-pinterest" aria-hidden="true"></i></Link>
+            <Link href="#"><i className="fab fa-linkedin-in" aria-hidden="true"></i></Link>
+            <Link href="#"><i className="fab fa-quora" aria-hidden="true"></i></Link>
+            <Link href="#"><i className="fab fa-tumblr" aria-hidden="true"></i></Link>
+          </div>
 
           <div className="footer-links">
             <Link href="/privacy-policy">Disclaimer</Link> |

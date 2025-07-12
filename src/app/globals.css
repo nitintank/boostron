@@ -82,7 +82,7 @@ h2 {
   color: var(--accent-color);
 }
 
-.newHeadBox{
+.newHeadBox {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -115,7 +115,7 @@ h2 {
   background-color: var(--accent-hover);
 }
 
-.max-button-padding{
+.max-button-padding {
   padding: 14px 22px;
   font-size: 30px;
 }
@@ -1544,21 +1544,31 @@ h2 {
 }
 
 .social-icons {
-  margin-bottom: 15px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 
 .social-icons a {
-  display: inline-block;
-  margin: 0 10px;
-  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  padding: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  color: #000;
+  background-color: transparent;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
 }
 
 .social-icons a:hover {
   transform: scale(1.1);
+}
+
+.social-icons i{
+  font-size: 20px;
 }
 
 .footer-links {
@@ -2065,16 +2075,20 @@ h2 {
   .faq-answer-block h3 {
     margin: 0 0 10px;
   }
-  .bottom-banner h3{
+
+  .bottom-banner h3 {
     font-size: 25px;
   }
-  .footer-section{
+
+  .footer-section {
     padding: 20px 10px;
   }
-  .footer-disclaimer{
+
+  .footer-disclaimer {
     padding: 0px !important;
   }
-  .footer-disclaimer p{
+
+  .footer-disclaimer p {
     padding: 0px !important;
   }
 }
@@ -2153,33 +2167,35 @@ body {
 }
 
 .off-white-background {
-    /* background: #eee; */
-    /* border-top: 4px solid #e8e8e8; */
+  /* background: #eee; */
+  /* border-top: 4px solid #e8e8e8; */
 }
 
 .buying-background {
-    background: #222;;
-    border-top: 4px solid #222;;
-    max-width: 600px;
-    top: -1px;
+  background: #222;
+  ;
+  border-top: 4px solid #222;
+  ;
+  max-width: 600px;
+  top: -1px;
 }
 
 .g-arrow {
-    position: relative;
-    clip-path: polygon(100% 0, 0 0, 50% 100%);
-    height: 15px;
-    max-width: 600px;
-    width: 100%;
-    margin: 0 auto;
-    border-top: none !important;
+  position: relative;
+  clip-path: polygon(100% 0, 0 0, 50% 100%);
+  height: 15px;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  border-top: none !important;
 }
 
 .p-4 {
-    padding: 1rem !important;
+  padding: 1rem !important;
 }
 
 @media (max-width: 425px) {
-  .g-arrow{
+  .g-arrow {
     max-width: 350px;
   }
 }
