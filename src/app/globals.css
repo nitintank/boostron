@@ -1644,6 +1644,12 @@ h2 {
   .image-link {
     width: 100%;
   }
+
+  /* Social Icons */
+  .social-icons a {
+    width: 25px;
+    height: 25px;
+  }
 }
 
 @media (max-width: 768px) {
