@@ -2209,3 +2209,11 @@ body {
     max-width: 350px;
   }
 }
+
+/* Privacy Page */
+
+.para-privacy-page{
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0px 10px;
+}

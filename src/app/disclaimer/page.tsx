@@ -2,13 +2,13 @@ import React from 'react'
 import Link from "next/link";
 
 export const metadata = {
-  title: 'Privacy Policy',
+  title: 'Disclaimer',
   description:
-    'Privacy Policy',
+    'Disclaimer',
   keywords: [
-    'Privacy Policy',
+    'Disclaimer',
   ],
-  authors: [{ name: 'Privacy Policy' }],
+  authors: [{ name: 'Disclaimer' }],
   alternates: {
     canonical: '',
   },
@@ -18,21 +18,21 @@ export const metadata = {
   openGraph: {
     url: '',
     type: 'website',
-    title: 'Privacy Policy',
+    title: 'Disclaimer',
     description:
-      'Privacy Policy',
+      'Disclaimer',
     images: [
       {
         url: '',
         width: 1200,
         height: 630,
-        alt: 'Privacy Policy',
+        alt: 'Disclaimer',
       },
     ],
   }
 };
 
-export default function PrivayPolicy() {
+export default function Disclaimer() {
 
   return (
     <div>
@@ -53,43 +53,27 @@ export default function PrivayPolicy() {
         </div>
       </header>
       {/* upper Line */}
-      <h1 className="product-title">Privacy Policy</h1>
+      <h1 className="product-title">Disclaimer</h1>
       <p className="para-privacy-page">
-        <strong>Your Privacy Matters to Us</strong>
+        <strong>Disclaimer for The EndoPeak,</strong>
         <br /><br />
-        At Mitolyn, we value your privacy and strive to make your online experience enjoyable and secure. Here’s how we handle your information:
+        If you require any more information or have any questions about our site’s disclaimer, please feel free to contact us by email at info@EndoPeak.com
         <br /><br />
-        <strong>Personal Information We Collect and How We Use It</strong>
+        All the information on this website – https://EndoPeak.com/ – is published in good faith and for general information purpose only. EndoPeak does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website (EndoPeak), is strictly at your own risk. EndoPeak will not be liable for any losses and/or damages in connection with the use of our website.
         <br /><br />
-        <strong>Registration:</strong> When you sign up for our products or services, we may ask for personal information such as your name, address, phone number, and billing details. This information is used to manage your account and process payments.
+        From our website, you can visit other websites by following hyperlinks to such external sites. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before we have the opportunity to remove a link which may have gone ‘bad’.
         <br /><br />
-        <strong>Partners and Sponsors:</strong> Sometimes, we offer products and services in partnership with other companies. In these cases, we may share your personal information with the partner to provide the service. Your information will not be used by the partner for any other purpose.
+        Please be also aware that when you leave our website, other sites may have different privacy policies and terms which are beyond our control.
         <br /><br />
-        <strong>Online Shopping:</strong> When you make a purchase, we collect necessary information to process your order. We do not share this information with third parties except when necessary to complete your order.
+        Please be sure to check the Privacy Policies of these sites as well as their “Terms of Service” before engaging in any business or uploading any information.
         <br /><br />
-        <strong>Online Advertisements:</strong> We may display online advertisements and share aggregated, non-identifying information with advertisers. This helps us deliver tailored ads without sharing your personal information.
+        <strong>Consent</strong>
         <br /><br />
-        <strong>Email Inquiries:</strong> When you contact us via email, we use your email address only to respond to your inquiry. We do not share your email address with third parties.
+        By using our website, you hereby consent to our disclaimer and agree to its terms.
         <br /><br />
-        <strong>Customer Surveys:</strong> We may conduct surveys to improve our services. Your responses are kept confidential, and aggregated data may be shared with third parties to enhance our offerings.
+        <strong>Update</strong>
         <br /><br />
-        <strong>Promotions:</strong> If you participate in contests or sweepstakes, we may share your information with third parties to administer the promotion.
-        <br /><br />
-        <strong>Special Cases:</strong> We may disclose personal information in special cases, such as to comply with laws, protect our company, or respond to legal requests.
-        <br /><br />
-        <strong>California Privacy Rights:</strong> California residents have the right to know what personal information we share with third parties. To request this information, please email us with "California Privacy Request" in the subject line.
-        <br /><br />
-        <strong>Cookies:</strong> We use cookies to improve your experience on our site. Cookies do not enable third parties to access your information. You can manage cookies through your browser settings.
-        <br /><br />
-        <strong>Children’s Privacy:</strong> Our website is intended for users 18 years or older. We do not collect information from children under 18.
-        <br /><br />
-        <strong>Public Forums:</strong> Be cautious when sharing personal information in public areas of our site, as this information becomes public.
-        <br /><br />
-        <strong>Data Security:</strong> We have security measures in place to protect your information, but we cannot guarantee against unauthorized access.
-        <br /><br />
-        <strong>Questions and Revisions:</strong> If you have questions about our privacy policy, please contact us. We reserve the right to revise this policy at any time.
-        <br /><br />
-        <strong>Opting Out:</strong> To stop receiving emails from us, click the unsubscribe link at the bottom of any email or fill out the form below.
+        Should we update, amend or make any changes to this document, those changes will be prominently posted here.
       </p>
 
       {/* Footer */}

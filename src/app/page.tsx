@@ -5,8 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
-  // Images for showcase section (replace with actual image paths and links)
-  // State to control mobile sidebar visibility
   const [isSidebarOpen, setIsSidebarOpen] = React.useState(false);
 
   return (
@@ -19,11 +17,11 @@ export default function Home() {
           </div>
           <div className="newHeadBox">
             <nav className="nav-links">
-              <a href="#how-it-works">How It Works?</a>
-              <a href="#ingredients">Ingredients</a>
-              <a href="#benefits">Benefits</a>
+              <Link href="#how-it-works">How It Works?</Link>
+              <Link href="#ingredients">Ingredients</Link>
+              <Link href="#benefits">Benefits</Link>
             </nav>
-            <a href="#order" className="order-button">Order Now</a>
+            <Link href="#order" className="order-button">Order Now</Link>
           </div>
           <button className="mobile-menu-icon" onClick={() => setIsSidebarOpen(true)} aria-label="Open Menu">☰</button>
         </div>
@@ -721,8 +719,8 @@ export default function Home() {
           </div>
 
           <div className="footer-links">
-            <Link href="/privacy-policy">Disclaimer</Link> |
-            <Link href="/privacy-policy">Terms of Use</Link> |
+            <Link href="/disclaimer">Disclaimer</Link> |
+            <Link href="/terms-and-conditions">Terms of Use</Link> |
             <Link href="/privacy-policy">Privacy Policy</Link>
           </div>
 
