@@ -17,7 +17,6 @@ export default function Home() {
           <div className="logo">
             <h2 style={{ margin: 0, fontWeight: 'bold', fontSize: '1.8rem' }}>Boostron®</h2>
           </div>
-          <button className="mobile-menu-icon" onClick={() => setIsSidebarOpen(true)} aria-label="Open Menu">☰</button>
           <div className="newHeadBox">
             <nav className="nav-links">
               <a href="#how-it-works">How It Works?</a>
@@ -26,6 +25,7 @@ export default function Home() {
             </nav>
             <a href="#order" className="order-button">Order Now</a>
           </div>
+          <button className="mobile-menu-icon" onClick={() => setIsSidebarOpen(true)} aria-label="Open Menu">☰</button>
         </div>
       </header>
       {/* Mobile Sidebar */}
@@ -36,7 +36,7 @@ export default function Home() {
           <a href="#ingredients" onClick={() => setIsSidebarOpen(false)}>Ingredients</a>
           <a href="#benefits" onClick={() => setIsSidebarOpen(false)}>Benefits</a>
         </nav>
-        <a href="#order" className="order-button" onClick={() => setIsSidebarOpen(false)}>Order Now</a>
+        <a href="#order" className="order-button mobile-button" onClick={() => setIsSidebarOpen(false)}>Order Now</a>
       </aside>
       <div className={`sidebar-overlay ${isSidebarOpen ? 'show' : ''}`} onClick={() => setIsSidebarOpen(false)}></div>
 
@@ -46,7 +46,7 @@ export default function Home() {
       <section className="hero-section">
         <div className="product-image">
           <Image
-            src="/boostron-removebg-preview.png"
+            src="/images/boostron-removebg-preview.png"
             alt="Boostron Supplement Bottle"
             width={450}
             height={450}
@@ -78,22 +78,22 @@ export default function Home() {
         <h2>Why Choose Boostron?</h2>
         <div className="certification-badges">
           <div className="badge">
-            <Image src="/made-in-usa.png" alt="Made in USA" width={250} height={250} style={{ objectFit: 'contain' }} />
+            <Image src="/images/made-in-usa.png" alt="Made in USA" width={250} height={250} style={{ objectFit: 'contain' }} />
             <h3 className="badge-title">MADE IN THE USA</h3>
             <p className="badge-description">Boostron is proudly manufactured in the USA with strict quality control.</p>
           </div>
           <div className="badge">
-            <Image src="/all-natural-ingredients-removebg-preview.png" alt="100% Natural" width={250} height={250} style={{ objectFit: 'contain' }} />
+            <Image src="/images/all-natural-ingredients-removebg-preview.png" alt="100% Natural" width={250} height={250} style={{ objectFit: 'contain' }} />
             <h3 className="badge-title">100% NATURAL</h3>
             <p className="badge-description">All ingredients in Boostron are pure, natural, and carefully sourced.</p>
           </div>
           <div className="badge">
-            <Image src="/gmp-certified-removebg-preview.png" alt="GMP Certified" width={250} height={250} style={{ objectFit: 'contain' }} />
+            <Image src="/images/gmp-certified-removebg-preview.png" alt="GMP Certified" width={250} height={250} style={{ objectFit: 'contain' }} />
             <h3 className="badge-title">GMP CERTIFIED</h3>
             <p className="badge-description">Boostron is manufactured following Good Manufacturing Practices to ensure high quality.</p>
           </div>
           <div className="badge">
-            <Image src="/fda-approved-removebg-preview.png" alt="FDA Approved" width={250} height={250} style={{ objectFit: 'contain' }} />
+            <Image src="/images/fda-approved-removebg-preview.png" alt="FDA Approved" width={250} height={250} style={{ objectFit: 'contain' }} />
             <h3 className="badge-title">FDA APPROVED</h3>
             <p className="badge-description">Boostron is manufactured in an FDA certified facility, meeting the highest health standards.</p>
           </div>
@@ -123,7 +123,7 @@ export default function Home() {
           </div>
           <div style={{ flex: '1', minWidth: '300px', display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
             <Image
-              src="/boostron-supplement-removebg-preview.png"
+              src="/images/boostron-supplement-removebg-preview.png"
               alt="Boostron Supplement Bottle"
               width={300}
               height={400}
@@ -198,7 +198,7 @@ export default function Home() {
               <div className="reviewer-image">
                 <div style={{ width: '90px', height: '90px', borderRadius: '10%', backgroundColor: '#f0f0f0', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
                   <Image
-                    src="/review-img-1.webp"
+                    src="/images/review-img-1.webp"
                     alt="Boostron Supplement Bottle"
                     width={90}
                     height={90}
@@ -239,7 +239,7 @@ export default function Home() {
               <div className="reviewer-image">
                 <div style={{ width: '90px', height: '90px', borderRadius: '10%', backgroundColor: '#f0f0f0', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
                   <Image
-                    src="/review-img-2.webp"
+                    src="/images/review-img-2.webp"
                     alt="Boostron Supplement Bottle"
                     width={90}
                     height={90}
@@ -280,7 +280,7 @@ export default function Home() {
               <div className="reviewer-image">
                 <div style={{ width: '90px', height: '90px', borderRadius: '10%', backgroundColor: '#f0f0f0', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
                   <Image
-                    src="/review-img-3.webp"
+                    src="/images/review-img-3.webp"
                     alt="Boostron Supplement Bottle"
                     width={90}
                     height={90}
@@ -341,7 +341,7 @@ export default function Home() {
               <span className="supply-days">30 DAY SUPPLY</span>
             </div>
             <div className="card-content">
-              <Image src="/prod-1.png" alt="LungExpand Pro 1 Bottle" className="product-image-new" width={200} height={200} />
+              <Image src="/images/prod-1.png" alt="LungExpand Pro 1 Bottle" className="product-image-new" width={200} height={200} />
               <div className="price-section">
                 <span className="current-price">$69</span>
                 <span className="per-bottle">/ Bottle</span>
@@ -351,7 +351,7 @@ export default function Home() {
                 TOTAL: <span className="original-total">$99</span> <span className="discounted-total">$69</span>
               </div>
               <div className="payment-methods">
-                <Image src="/credit-cards.png" alt="Credit Card" width={150} height={150} style={{ width: 'auto' }} />
+                <Image src="/images/credit-cards.png" alt="Credit Card" width={150} height={150} style={{ width: 'auto' }} />
               </div>
             </div>
           </div>
@@ -362,7 +362,7 @@ export default function Home() {
               <span className="supply-days">180 DAY SUPPLY</span>
             </div>
             <div className="card-content">
-              <Image src="/prod-2.png" alt="LungExpand Pro 1 Bottle" className="product-image-new" width={200} height={200} />
+              <Image src="/images/prod-2.png" alt="LungExpand Pro 1 Bottle" className="product-image-new" width={200} height={200} />
               <div className="price-section">
                 <span className="current-price">$49</span>
                 <span className="per-bottle">/ Bottle</span>
@@ -374,7 +374,7 @@ export default function Home() {
                 TOTAL: <span className="original-total">$594</span> <span className="discounted-total">$294</span>
               </div>
               <div className="payment-methods">
-                <Image src="/credit-cards.png" alt="Credit Card" width={150} height={150} style={{ width: 'auto' }} />
+                <Image src="/images/credit-cards.png" alt="Credit Card" width={150} height={150} style={{ width: 'auto' }} />
               </div>
             </div>
           </div>
@@ -385,7 +385,7 @@ export default function Home() {
               <span className="supply-days">90 DAY SUPPLY</span>
             </div>
             <div className="card-content">
-              <Image src="/prod-3.png" alt="LungExpand Pro 1 Bottle" className="product-image-new" width={200} height={200} />
+              <Image src="/images/prod-3.png" alt="LungExpand Pro 1 Bottle" className="product-image-new" width={200} height={200} />
               <div className="price-section">
                 <span className="current-price">$59</span>
                 <span className="per-bottle">/ Bottle</span>
@@ -395,7 +395,7 @@ export default function Home() {
                 TOTAL: <span className="original-total">$297</span> <span className="discounted-total">$177</span>
               </div>
               <div className="payment-methods">
-                <Image src="/credit-cards.png" alt="Credit Card" width={150} height={150} style={{ width: 'auto' }} />
+                <Image src="/images/credit-cards.png" alt="Credit Card" width={150} height={150} style={{ width: 'auto' }} />
               </div>
             </div>
           </div>
@@ -408,7 +408,7 @@ export default function Home() {
         <h2>Order 6 Bottles or 2 Bottles And Get 2 Free Bonuses !</h2>
         <section className="ebook-bonus-section">
           <div className="ebook-card">
-            <Image src="/book-1.webp" alt="Credit Card" width={250} height={250} style={{ width: 'auto' }} />
+            <Image src="/images/book-1.webp" alt="Credit Card" width={250} height={250} style={{ width: 'auto' }} />
             <div className="ebook-text">
               <strong>(Bonus #2) Renew You – 100% Free</strong>
               Retail Price - $79<br />
@@ -422,7 +422,7 @@ export default function Home() {
           </div>
 
           <div className="ebook-card">
-            <Image src="/book-2.webp" alt="Credit Card" width={250} height={250} style={{ width: 'auto' }} />
+            <Image src="/images/book-2.webp" alt="Credit Card" width={250} height={250} style={{ width: 'auto' }} />
             <div className="ebook-text">
               <strong>(Bonus #1) 1-Day Kickstart Detox – 100% Free</strong>
               Retail Price - $79<br />
@@ -470,7 +470,7 @@ export default function Home() {
         {/* Certification Logos Row */}
         <div className="cert-logos">
           {[
-            "/boostron-fda-certificate-786x148.webp"
+            "/images/boostron-fda-certificate-786x148.webp"
           ].map((logo, idx) => (
             <Image key={idx} src={logo} alt="Certification Logo" width={500} height={148} />
           ))}
@@ -509,7 +509,7 @@ export default function Home() {
         <div className="guarantee-block">
           <div className="guarantee-content">
             <div className="gurantee-blog">
-              <Image src="/boostron-moneyback-removebg-preview.png" alt="Money Back Badge" width={200} height={200} />
+              <Image src="/images/boostron-moneyback-removebg-preview.png" alt="Money Back Badge" width={200} height={200} />
             </div>
             <div className="guarantee-text">
               <h3>Boostron 180-Day Money Back Guarantee</h3>
@@ -665,7 +665,7 @@ export default function Home() {
         {/* Top CTA Banner */}
         <div className="faq-banners">
           <div className="banner-image">
-            <Image src="/boostron-removebg-preview.png" alt="Boostron Bottle" width={350} height={350} />
+            <Image src="/images/boostron-removebg-preview.png" alt="Boostron Bottle" width={350} height={350} />
           </div>
           <div className="banner-content">
             <h3>Don’t Wait Any Longer! Order Your Discounted Bottle Now!</h3>
@@ -694,7 +694,7 @@ export default function Home() {
         {/* Bottom CTA Banner */}
         <div className="faq-banner bottom-banner">
           <h3>Don’t Wait Any Longer! Order Your Discounted Bottle Now!</h3>
-          <Image src="/boostron-big-offer-removebg-preview.png" alt="Boostron Bottles" width={500} height={350} />
+          <Image src="/images/boostron-big-offer-removebg-preview.png" alt="Boostron Bottles" width={500} height={350} />
           <p className="regular-price small">Regular Price: $99/per bottle</p>
           <strong className="discounted">Only for: $39.99/per bottle</strong>
           <a href="#order" className="order-button max-button-padding">Order Your Boostron Now</a>

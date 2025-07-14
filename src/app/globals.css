@@ -120,6 +120,10 @@ h2 {
   font-size: 30px;
 }
 
+.mobile-button{
+  margin: 0px !important;
+}
+
 /* Hero Section */
 .hero-section {
   display: flex;
